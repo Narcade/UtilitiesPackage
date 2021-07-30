@@ -18,4 +18,6 @@ public static class DateTimeExtensions
 
     public static bool IsNotApproximately(this DateTime @this, DateTime other, TimeSpan epsilon) =>
         !IsApproximately(@this, other, epsilon);
+    
+    //Comment
 }
