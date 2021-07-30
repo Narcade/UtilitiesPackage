@@ -3,7 +3,7 @@ using System.Globalization;
 
 public static class DateTimeSerializer
 {
-    // ReSharper disable once ConvertToConstant.Local
+    // ReSharper disable once ConvertToConstant.Local...
     private static readonly string DefaultDateFormat = "yyyy-MM-dd";
 
     private static readonly string[] Formats = {
