@@ -1,0 +1,18 @@
+{
+  "name": "com.nar.utils",
+  "version": "1.0.0",
+  "displayName": "Narcade Utilities",
+  "description": "Narcade utility package",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Narcade",
+    "email": "koraydeger@narcade.com",
+    "url": "https://www.narcade.com"
+  },
+  "hideInEditor": false,
+  "type": "tool"
+}
