@@ -1,8 +1,8 @@
 {
   "name": "com.nar.utils",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "displayName": "Narcade Utilities",
-  "description": "Narcade utility package; /n- DateTime",
+  "description": "Narcade utility package; \n- DateTime",
   "keywords": [
     "DateTime",
     "Utility",
