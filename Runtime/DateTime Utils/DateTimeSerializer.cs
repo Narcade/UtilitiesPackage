@@ -106,11 +106,13 @@ public static class DateTimeSerializer
         return false;
     }
 
+    // todo umur specify kind UTC
     public static long ToUnixTimeSeconds(DateTime dateTime)
     {
         return ((DateTimeOffset) dateTime).ToUnixTimeSeconds();
     }
 
+    // todo umur specify kind UTC
     public static DateTimeOffset FromUnixTimeSeconds(long unixSeconds) => DateTimeOffset.FromUnixTimeSeconds(unixSeconds);
 
     public static DateTime ParseTimestampOrDateTime(string dateTimeString, DateTime defaultValue, bool assumeLocal = false)
